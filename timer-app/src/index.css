@@ -1,32 +1,15 @@
 @import "tailwindcss";
 
-
-
-@media(max-width:976px){
-.timer-main{
-  margin-top: 300px;
-}
-
-}
-
-body{
+body {
   background-color: black;
-  color: white;
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-
-
-button{
-  box-shadow: 2px 5px 2px #f5f5fc; /* darker bottom for 3D look */
-  border: none;
-}
-
-.timer-app {
-  width: 400px;
-  height: 400px;
-  border-radius: 20px;
-}
-.time-num {
+.font-orbitron {
   font-family: "Orbitron", sans-serif;
+}
+
+button {
+  box-shadow: 2px 5px 2px #f5f5fc; /* 3D effect */
+  border: none;
 }

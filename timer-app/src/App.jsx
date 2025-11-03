@@ -1,12 +1,13 @@
-import { Pause } from "lucide-react";
+
 import React, { useRef, useState } from "react";
+import tick from "./sound/second-hand-149907.mp3";
 
 const App = () => {
   const [value, setValue] = useState(0);
   const [paused, setPaused] = useState(false);
   const store = useRef(null);
   const colors = useRef(null);
-  const tickSound = useRef(new Audio("/second-hand-149907.mp3"));
+  const tickSound = useRef(new Audio(tick));
 
   const start = () => {
     clearInterval(store.current);
@@ -41,9 +42,9 @@ const App = () => {
   };
 
   return (
-    <div className=" justify-center items-center flex-col flex  lg:min-h-screen bg-gray-900  timer-main ">
-      <div className="timer-app text-center justify-center items-center flex  flex-col    bg-gray-700/50 backdrop-blur-sm ">
-        <h1 className="text-center text-3xl  font-semibold bg-gray-800 ">
+    <div className=" justify-center items-center flex-col flex min-h-screen bg-gray-900  timer-main  ">
+      <div className="timer-app text-center justify-center items-center flex  flex-col rounded-3xl    bg-gray-700/50 backdrop-blur-sm  p-5">
+        <h1 className="text-center text-3xl  font-semibold bg-gray-800 text-white ">
           TIMER APP
         </h1>
 
