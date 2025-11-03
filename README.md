@@ -29,5 +29,3 @@ featuring a **real ticking sound effect** and smooth color feedback for Start, P
 ---
 
 
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
