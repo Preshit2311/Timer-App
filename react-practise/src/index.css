@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+body{
+  background-color: black;
+}
+
+.option-m {
+  transition: all 0.5s ease-in-out;
+  transform: translateX(0%);
+}
+
